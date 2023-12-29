@@ -1,8 +1,14 @@
+import Numbers from "./components/Numbers";
+import Description from "./components/Description";
+import Buttons from "./components/Buttons";
+
 function App() {
   return (
-    <>
-      <p>Hello world !</p>
-    </>
+    <div className="steps">
+      <Numbers />
+      <Description />
+      <Buttons />
+    </div>
   );
 }
 
