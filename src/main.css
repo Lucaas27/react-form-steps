@@ -79,8 +79,8 @@ h3 {
 
 .close {
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 40px;
+  right: 100px;
   border: none;
   background: none;
   cursor: pointer;

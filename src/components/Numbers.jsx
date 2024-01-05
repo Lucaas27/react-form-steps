@@ -2,9 +2,9 @@
 const Numbers = ({ step }) => {
   return (
     <div className="numbers">
-      <div className={`${step >= 1 && "active"}`}>1</div>
-      <div className={`${step >= 2 && "active"}`}>2</div>
-      <div className={`${step >= 3 && "active"}`}>3</div>
+      <div className={step >= 1 ? "active" : undefined}>1</div>
+      <div className={step >= 2 ? "active" : undefined}>2</div>
+      <div className={step >= 3 ? "active" : undefined}>3</div>
     </div>
   );
 };
